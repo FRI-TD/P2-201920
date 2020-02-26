@@ -34,6 +34,5 @@ public class Obresti {
     System.out.println("Število let: " + n);
     System.out.println("Obrestna mera: " + p);
     System.out.println("Koncni znesek: " + Gn);  
-  } 
-
+  }
 }
