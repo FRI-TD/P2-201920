@@ -87,7 +87,7 @@ public class Risanje {
    * @param kot kot v stopnjah
    * @param dolzina dolzina kazalca
    */
-  static void kazalec(double kot, double dolzina) {
+  public static void kazalec(double kot, double dolzina) {
     double x = dolzina * Math.cos(2*Math.PI*kot/360);
     double y = dolzina * Math.sin(2*Math.PI*kot/360);
 
