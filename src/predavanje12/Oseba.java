@@ -1,5 +1,7 @@
 package predavanje12;
 
+import java.io.Serializable;
+
 /**
  * Razred Oseba hrani podatke o eni osebi (ime in starost).
  * - Za vse privatne atrubute (ima in starost) imamo getterje in setterje.
@@ -9,7 +11,7 @@ package predavanje12;
  *
  * @author tomaz
  **/
-public class Oseba implements Comparable<Oseba> {
+public class Oseba implements Comparable<Oseba>, Serializable {
 
   private String ime;
   private int starost;
